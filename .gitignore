@@ -5,4 +5,5 @@
 /example/.dumi/tmp
 /example/.dumi/tmp-production
 /example/.dumi/theme
+.dumi/
 .DS_Store

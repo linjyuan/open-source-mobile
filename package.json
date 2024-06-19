@@ -4,6 +4,7 @@
   "description": "基于React的开源移动端组件",
   "types": "dist/types.d.ts",
   "scripts": {
+    "start": "dumi dev",
     "dev": "APP_ROOT=example dumi dev",
     "build": "father build",
     "prepare": "husky install && father link-dev-theme && APP_ROOT=example dumi setup",
@@ -13,6 +14,7 @@
     "prepublishOnly": "father doctor && npm run build"
   },
   "keywords": [
+    "open",
     "react",
     "react-component",
     "mobile",
